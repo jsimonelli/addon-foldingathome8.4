@@ -9,7 +9,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 ARG BUILD_ARCH=amd64
 RUN \
     curl -J -L -o /tmp/fah.deb \
-        "https://download.foldingathome.org/releases/public/fah-client/debian-10-64bit/release/fah-client_8.3.17_amd64.deb" \
+        "https://download.foldingathome.org/releases/public/fah-client/debian-10-64bit/release/fah-client_8.4.9_amd64.deb" \
     \
     && apt-get update \
     && apt-get install -y --no-install-recommends \
